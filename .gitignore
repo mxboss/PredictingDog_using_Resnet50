@@ -1,0 +1,31 @@
+# 忽略所有的编译生成文件
+*.class
+*.o
+*.so
+*.exe
+
+# 忽略所有的日志文件
+*.log
+
+# 忽略所有的临时文件
+tmp/
+data/
+tmpData/
+*.tmp
+*.h5
+*.tar
+*.zip
+
+# 忽略特定的文件或目录
+build/
+.idea/
+.vscode/
+.vs/
+.pytest_cache/
+.ipynb_checkpoints/
+photo/
+__pycache__/
+target_Image/
+resnet_v2_101_2017_04_14/
+resnet-v2-tensorflow2-50-classification-v2/
+tmpCheckpoint/
